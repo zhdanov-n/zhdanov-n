@@ -1,0 +1,15 @@
+services:
+  mini_server:
+    image: mini_server:1.1
+    build: .
+    container_name: mini_server
+
+  proxy:
+    image: nginx:1.25.4
+    container_name: proxy
+    ports:
+      - 80:8080
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - mini_server

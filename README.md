@@ -1,16 +1,25 @@
-## Hi there 👋
+### ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Инженер+по+тестированию)
 
-<!--
-**zhdanov-n/zhdanov-n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+- :bearded_person: **Никита Жданов**
+- :desktop_computer: Инженер по автоматизированному тестированию /  Инженер по ручному функциональному тестированию
+- :man_student: [School 21](https://21-school.ru/)
+- :city_sunrise: г. Москва
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/samnaun)
+
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab_CICD-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%23D42029.svg?color=blue&style=for-the-badge&logo=Docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+
+| Название проекта     | Описание | Инструменты |
+| ------------- | ------------------------ | ------------------------ |
+| [cat grep + CI/CD](https://github.com/MarkLitinskiy/sql-bootcamp) | Ручное vs. Автоматизированное тестирование |  CI/CD, GitLab, Ubuntu Server, Bash |
+| [Info_21](https://github.com/MarkLitinskiy/sql-info21) |  Data analysis and statistics for School 21. | Postgresql |

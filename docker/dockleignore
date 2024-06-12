@@ -1,0 +1,6 @@
+# ignoring "Suspicious ENV key found" because NGINX_GPGKEY is part of nginx
+CIS-DI-0010
+# set root to default user because we want to run nginx
+CIS-DI-0001
+# confirming safety of setuid and setgid files because it's nginx image
+CIS-DI-0008

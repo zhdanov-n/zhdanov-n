@@ -1,0 +1,49 @@
+stages:
+  - build
+  - style
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - cd src/cat/
+    - make
+    - cd ../grep/
+    - make
+  allow_failure: false
+  artifacts:
+    paths:
+    - src/cat/s21_cat
+    - src/grep/s21_grep
+    expire_in: 30 days
+  after_script:
+    - bash src/bot.sh "build"
+
+style:
+  stage: style
+  script:
+    clang-format -style=Google -Werror -n src/cat/*.c src/cat/*.h src/grep/*.c src/grep/*.h
+  allow_failure: false
+  after_script:
+    - bash src/bot.sh "style"
+
+test:
+  stage: test
+  script:
+    - cd src/cat/
+    - bash cat_test.sh
+    - cd ../grep/
+    - bash grep_test.sh
+  allow_failure: false
+  after_script:
+    - bash src/bot.sh "test"
+
+deploy:
+  stage: deploy
+  script:
+    - bash src/deploy.sh
+  when: manual
+  allow_failure: false
+  after_script:
+    - bash src/bot.sh "deploy"
