@@ -21,5 +21,6 @@
 
 | Название проекта     | Описание | Инструменты |
 | ------------- | ------------------------ | ------------------------ |
-| [cat grep + CI/CD](https://github.com/MarkLitinskiy/sql-bootcamp) | Ручное vs. Автоматизированное тестирование |  CI/CD, GitLab, Ubuntu Server, Bash |
-| [Info_21](https://github.com/MarkLitinskiy/sql-info21) |  Data analysis and statistics for School 21. | Postgresql |
+| [cat grep + CI/CD](https://github.com/zhdanov-n/zhdanov-n/tree/main/manual_vs_automated) | Ручное vs. Автоматизированное тестирование |  CI/CD, GitLab, Ubuntu Server |
+| [Check vs. GTest](https://github.com/zhdanov-n/zhdanov-n/tree/main/check_vs_gtest) |  Выполнение полного покрытия unit-тестами функций библиотек, реализующих основные действия с матрицами | C/C++, Gcovr, Valgrind |
+| [Docker](https://github.com/zhdanov-n/zhdanov-n/tree/main/docker) | Разработка и настройка докер-образа (на базе nginx) для собственного сервера |  Docker, FastCgi, Dockle, Docker Compose |
