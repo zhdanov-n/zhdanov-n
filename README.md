@@ -22,7 +22,7 @@
 
 | Название проекта     | Описание | Инструменты |
 | ------------- | ------------------------ | ------------------------ |
-| [Selenium Python](https://github.com/zhdanov-n/zhdanov-n/tree/main/manual_vs_automated) | Ручное vs. Автоматизированное тестирование |  CI/CD, GitLab, Ubuntu Server |
+| [Selenium Python](https://github.com/zhdanov-n/zhdanov-n/tree/main/selenium_python) | Автоматизация тестирования на примере бра |  Selenium, Python |
 | [cat grep + CI/CD](https://github.com/zhdanov-n/zhdanov-n/tree/main/manual_vs_automated) | Ручное vs. Автоматизированное тестирование |  CI/CD, GitLab, Ubuntu Server |
 | [Check vs. GTest](https://github.com/zhdanov-n/zhdanov-n/tree/main/check_vs_gtest) |  Выполнение полного покрытия unit-тестами функций библиотек, реализующих основные действия с матрицами | C/C++, Gcovr, Valgrind |
 | [Docker](https://github.com/zhdanov-n/zhdanov-n/tree/main/docker) | Разработка и настройка докер-образа (на базе nginx) для собственного сервера |  Docker, FastCgi, Dockle, Docker Compose |
