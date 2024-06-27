@@ -10,8 +10,6 @@ driver = webdriver.Chrome(service=service)
 
 driver.get("https://orteil.dashnet.org/cookieclicker/")
 
-# https://orteil.dashnet.org/cookieclicker/
-
 cookie_id = "bigCookie"
 cookies_id = "cookies"
 product_price_prefix = "productPrice"
